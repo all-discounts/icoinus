@@ -135,12 +135,12 @@ export const Header = props => {
                 type='search'
                 name='s'
                 autoComplete='off'
-                placeholder='Type then hit enter to search...'
+                placeholder='Введите название, затем нажмите Enter для поиска...'
               />
               <button
                 onClick={handleSearch}
-                className='w-full bg-[#383838] rounded py-2'>
-                {locale.COMMON.SEARCH} 搜索
+                className='w-full bg-white border border-gray-300 rounded py-2 text-black'>
+                                {locale.COMMON.SEARCH} Поиск
               </button>
             </div>
 
